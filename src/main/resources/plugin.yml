@@ -1,5 +1,11 @@
 name: RepairCommand
 version: '1.0.0'
 main: winlyps.repairCommand.RepairCommand
-api-version: '1.20'
+api-version: '1.16'
 authors: [ Winlyps ]
+commands:
+  repair:
+    description: Repairs the item in the player's hand.
+    usage: /repair
+    permission: repaircommand.use
+    permission-message: You do not have permission to use this command!
